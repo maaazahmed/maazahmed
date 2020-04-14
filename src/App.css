@@ -1,0 +1,214 @@
+*{
+  font-family:  'Helvetica Neue' !important;
+}
+.App {
+  text-align: center;
+}
+.input-style{
+  background-color: #ffffff;
+  box-shadow:  .2px .2px #888888;
+  padding: 16px;
+  border-radius: 5px;
+  
+}
+.container{
+  height: 100vh;
+  background-color: #EFF3F5;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.status-container{
+  height: 100vh;
+  background-color: #EFF3F5;
+   display: flex;
+   justify-content: center;
+   /* align-items: center; */
+}
+
+
+.status-container-component-layout{
+  height: 100vh;
+  background-color: #fff;
+  width: 50%;
+  margin-left: 23% !important;
+  margin-bottom: 10%;    
+}
+
+.button-container{
+   display: flex;
+    justify-content: flex-end;
+    /* border: solid 1px gray; */
+}
+
+/* .button-div{
+  width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  border: solid 1px gray;
+  border-radius: 5px;
+  margin-right:30px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.status-container-content{
+    background-color: rgb(255, 255, 255);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+
+.status-container-invoice-item {
+  padding-left: 25px;
+    height: 50px;
+    background: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.status-text{
+  color: green;
+  font-size: 33px;
+  font-weight: 900;
+  margin: 0px;
+}
+
+.invoic-num-container{
+  padding: 25px;
+  padding-bottom: 10px; 
+}
+.invois-num{
+  font-weight: bold;
+  font-size: 13px;
+  color: black;
+  letter-spacing: 1px
+}
+
+.invoice-details-column{
+/* height: 100px; */
+/* padding-top: 10px; */
+text-align: left;
+/* padding-left: 25px; */
+/* background-color: #464CE4; */
+}
+
+
+.box-invoice-details-column{
+  padding-top: 10px;
+text-align: left;
+padding-left: 25px;
+}
+
+.status-header{
+  height: 100px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  /* background-color: #555; */
+}
+.login-btn-container{
+  background-color: #464DE4;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.ant-table-small {
+  border: 1px solid transparent !important;
+  border-radius: 4px;
+}
+
+.logo-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 22px;
+  background-color: #EFF3F5;
+}
+
+
+
+
+
+.status-box{
+  border-width: 1px;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+
+
+.card-amount-container{
+  display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 75%
+}
+
+.btn-div{
+  margin-top: 15px; 
+}
+.btn-div:hover, .btn-div:focus {
+  color: #fff !important;
+  background-color: #464DE4 !important;
+}
+.cancel-btn-div:hover, .cancel-btn-div:focus {
+  color: #000 !important;
+  background-color: #BCBCBC !important;
+}
+.input-div{
+  margin-top: 15px; 
+  font-size: 11px
+}
+.ant-input{
+  font-size: 11px !important;
+}
+.input-label{
+  font-weight: 400;
+  padding: 1px;
+  font-size: 11px
+}
+.success{
+  background-color: #464CE4 !important;
+  color: #ffffff !important;
+}
+.ant-btn {
+  border-color: transparent !important;
+}
+.ant-drawer-wrapper-body{
+  background-color: #F8F8F8 !important;
+}
+::-webkit-scrollbar {
+  width:4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:transparent; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+
+}
+::--antd-wave-shadow-color:selection{ 
+  border-color: transparent !important;
+};
+
